@@ -1,0 +1,303 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+19195550199';
+const phoneDisplay = '(919) 555-0199';
+---
+<Layout>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">● WAKE FOREST &amp; ROLESVILLE · 24 / 7 EMERGENCY SERVICE</div>
+        <h1>AC REPAIR<br />IN <span>WAKE FOREST</span></h1>
+        <p class="hero-sub">Fast Fixes. Cool Relief. Same-Day Service.</p>
+        <p class="hero-desc">When your air conditioner fails in Wake Forest or Rolesville, every hot hour counts. Our licensed technicians are on call around the clock — delivering expert AC repairs, upfront pricing, and workmanship backed by a written guarantee for every home in Wake County.</p>
+        <div class="hero-tags">
+          <span class="hero-tag">⏱ Same-Day Response</span>
+          <span class="hero-tag">🛡 Licensed &amp; Insured</span>
+          <span class="hero-tag">✓ Upfront Pricing</span>
+          <span class="hero-tag">📞 24 / 7 Emergency</span>
+          <span class="hero-tag">🛡 Workmanship Guarantee</span>
+        </div>
+        <div class="hero-ctas">
+          <a href={`tel:${phone}`} class="btn btn-primary">Schedule an Appointment</a>
+          <a href={`tel:${phone}`} class="btn btn-outline">Get a Quote</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">❄️</div>
+          <h3>AC Not Cooling?</h3>
+          <p>We diagnose and repair central AC, heat pumps, and mini-splits the same day in most cases.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section section-alt" id="why">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Wake Forest Homeowners <span>Choose Us</span></h2>
+        <p>Wake Forest and Rolesville homes rely on reliable cooling through hot North Carolina summers. When your AC struggles, you need a licensed local specialist who responds the same day and repairs it right the first time.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Same-Day Diagnosis &amp; Repair</h3>
+          <p>Most same-day AC repair calls in Wake Forest are completed within hours of your call — no multi-day waits in the heat.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📜</div>
+          <h3>Licensed &amp; Certified</h3>
+          <p>Every technician is licensed, insured, and trained on central air, heat pumps, ductless systems, and common brands in Wake County.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💵</div>
+          <h3>Upfront Pricing, Zero Surprises</h3>
+          <p>We quote before we wrench. No hidden fees, no upsell pressure — just honest AC repair at fair local rates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Local to Rolesville &amp; Wake Forest</h3>
+          <p>Based near Rolesville — we know the housing stock, common brands (Carrier, Trane, Lennox, Rheem, Goodman), and local climate demands.</p>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item"><strong>45 min</strong><span>Avg. Response</span></div>
+        <div class="stat-item"><strong>98%</strong><span>First-Visit Fix Rate</span></div>
+        <div class="stat-item"><strong>24/7</strong><span>Emergency Available</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problems preview -->
+  <section class="section" id="problems">
+    <div class="container">
+      <div class="section-header">
+        <h2>Recognize <span>These Signs?</span></h2>
+        <p>Humidity, pollen, and heavy summer use accelerate AC wear in Wake Forest. If your system shows any of these symptoms, don't wait.</p>
+      </div>
+      <div class="problems-grid">
+        <a href="/problems/ac-not-turning-on/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>AC Not Turning On</h3>
+          <p>Complete failure often means a thermostat issue, tripped breaker, or capacitor failure. Same-day service restores comfort fast.</p>
+        </a>
+        <a href="/problems/weak-airflow/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>Weak Airflow</h3>
+          <p>Weak or warm air can signal a clogged filter, failing blower, or duct problems. Act before the system overheats.</p>
+        </a>
+        <a href="/problems/strange-noises/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Strange Noises</h3>
+          <p>Grinding, rattling, or squealing often means failing bearings, loose parts, or a worn motor. Early repair prevents bigger damage.</p>
+        </a>
+        <a href="/problems/frozen-coil/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>Frozen Coil</h3>
+          <p>Ice on the evaporator coil restricts airflow and can damage the compressor. Needs prompt professional attention.</p>
+        </a>
+        <a href="/problems/high-energy-bills/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>High Energy Bills</h3>
+          <p>Rising cooling costs often point to low refrigerant, dirty coils, or an aging system running inefficiently.</p>
+        </a>
+        <a href="/problems/bad-smell/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Bad Smells from AC</h3>
+          <p>Musty or burning odors can indicate mold in ducts or electrical issues. Have it inspected before it worsens.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Expert AC Repair <span>Services</span></h2>
+        <p>Every cooling problem has a root cause. Our certified technicians diagnose accurately and repair correctly.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-label">Urgent Response</span>
+          <h3>Emergency AC Repair</h3>
+          <p>When the AC fails on the hottest day, we respond around the clock — no after-hours surcharge surprises.</p>
+          <ul>
+            <li>Available 24 / 7</li>
+            <li>Avg. response under 60 min</li>
+            <li>Stocked service vehicles</li>
+          </ul>
+          <a href="/services/emergency-ac-repair/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Most Common</span>
+          <h3>Central AC Repair</h3>
+          <p>Split systems and package units. Capacitors, contactors, compressors, and full diagnostics for all major brands.</p>
+          <ul>
+            <li>All major brands</li>
+            <li>Written estimate first</li>
+            <li>Same-visit repairs</li>
+          </ul>
+          <a href="/services/central-ac-repair/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Common Issue</span>
+          <h3>AC Not Cooling</h3>
+          <p>Warm air from vents? We find the cause — refrigerant, coils, thermostat, or airflow — and fix it the same day when possible.</p>
+          <ul>
+            <li>Full system diagnosis</li>
+            <li>Refrigerant leak repair</li>
+            <li>Honest repair vs replace</li>
+          </ul>
+          <a href="/services/ac-not-cooling/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Preventive</span>
+          <h3>AC Maintenance</h3>
+          <p>Tune-ups keep systems efficient, extend equipment life, and reduce emergency breakdowns during peak season.</p>
+          <ul>
+            <li>Coil cleaning</li>
+            <li>Filter &amp; airflow check</li>
+            <li>Performance testing</li>
+          </ul>
+          <a href="/services/ac-maintenance/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Replacement</span>
+          <h3>AC Installation</h3>
+          <p>Code-compliant central and ductless installs sized correctly for Wake Forest and Rolesville homes.</p>
+          <ul>
+            <li>Same-day installs often available</li>
+            <li>Permit guidance</li>
+            <li>Workmanship warranty</li>
+          </ul>
+          <a href="/services/ac-installation/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Modern Systems</span>
+          <h3>Ductless Mini-Split</h3>
+          <p>Repair and install ductless systems for additions, garages, and homes without existing ductwork.</p>
+          <ul>
+            <li>Brand specialists</li>
+            <li>Zoning solutions</li>
+            <li>Energy-efficient options</li>
+          </ul>
+          <a href="/services/ductless-mini-split/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <h2>How We Restore <span>Your Cool Comfort</span></h2>
+        <p>Every Wake Forest AC repair follows a structured, transparent process.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div>
+            <h3>Scheduling &amp; Same-Day Response</h3>
+            <p>Call or text. We confirm your appointment quickly — often offering same-day slots. We gather a brief symptom overview so the technician arrives prepared.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div>
+            <h3>Precision Diagnostic Inspection</h3>
+            <p>We test capacitors, contactors, refrigerant levels, airflow, thermostat response, and electrical components. Problems are identified with instruments, not assumptions.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div>
+            <h3>Honest Findings &amp; Repair Options</h3>
+            <p>Before any work begins, your technician explains exactly what was found in plain language. You receive a clear written estimate. No pressure.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div>
+            <h3>Skilled Repair</h3>
+            <p>With your approval, the repair begins. Service vehicles carry common parts so most jobs finish on the first visit.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">05</div>
+          <div>
+            <h3>Performance Verification</h3>
+            <p>We verify cooling output, check temperatures, confirm proper operation, and leave you with a post-repair summary.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="section section-alt" id="location">
+    <div class="container">
+      <div class="section-header">
+        <h2>Find Us in <span>Rolesville, NC</span></h2>
+        <p>Proudly serving Wake Forest, Rolesville, and surrounding Wake County communities.</p>
+      </div>
+      <div class="map-wrapper">
+        <iframe
+          title="Map of 105 E Young St, Rolesville, NC"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-78.48%2C35.90%2C-78.44%2C35.94&amp;layer=mapnik&amp;marker=35.92167%2C-78.46361"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="map-info">
+        <h3>📍 105 E Young St, Rolesville, NC 27571</h3>
+        <p>Serving Wake Forest · Rolesville · Raleigh · Youngsville · Franklinton · Knightdale and surrounding communities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>AC Down in Wake Forest or Rolesville?</h2>
+      <p>Don't suffer through the heat. If your system stopped cooling, is making unusual sounds, or is running constantly — our team can respond today.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary" style="font-size:1.1rem;padding:1rem 2rem">Call Now — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>AC Repair <span>Questions</span></h2>
+        <p>Real answers to what Wake Forest homeowners ask most.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>My AC stopped cooling — is this an emergency?</summary>
+          <div class="faq-body">Yes, especially during North Carolina summer heat with kids, elderly residents, or pets. Most complete failures trace to a failed capacitor, contactor, thermostat, or refrigerant issue. Emergency calls placed earlier in the day are typically completed same-day.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How much does AC repair cost in Wake Forest?</summary>
+          <div class="faq-body">Simple fixes (capacitor, contactor, thermostat) often range from a few hundred dollars. We provide a written estimate before any work begins. Replacement is recommended when the unit is old and repair exceeds roughly 50% of replacement cost.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you repair both central and ductless systems?</summary>
+          <div class="faq-body">Yes. We service central air conditioners, heat pumps, package units, and ductless mini-splits from all major brands including Carrier, Trane, Lennox, Rheem, Goodman, Mitsubishi, and more.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Are you licensed and insured in North Carolina?</summary>
+          <div class="faq-body">Yes. All work is performed by licensed, insured technicians familiar with North Carolina HVAC codes and best practices for systems in Wake Forest, Rolesville, and Wake County.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Should I repair or replace my AC?</summary>
+          <div class="faq-body">Repair usually makes sense if the unit is under 10–12 years old and the issue is isolated. Replacement is worth evaluating for units 12+ years old, recurring failures, or when repair cost approaches half the value of a new system. We give an honest assessment either way.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+</Layout>

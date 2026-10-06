@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+19195550199';
+const phoneDisplay = '(919) 555-0199';
+---
+<Layout title="Service Areas | AC Repair Wake Forest & Rolesville NC" description="AC repair service areas: Wake Forest, Rolesville, Raleigh, Youngsville and Wake County, NC.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Service Areas</h1>
+      <p>Fast AC repair across Wake Forest, Rolesville, and nearby communities.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container" style="max-width:800px">
+      <p>We provide same-day and emergency air conditioning repair throughout northeastern Wake County and surrounding areas. Our base near Rolesville means short drive times to most of our customers.</p>
+      <h2>Primary Service Area</h2>
+      <ul>
+        <li>Wake Forest, NC</li>
+        <li>Rolesville, NC</li>
+        <li>Youngsville, NC</li>
+        <li>Franklinton, NC</li>
+        <li>Knightdale, NC</li>
+        <li>Northern Raleigh, NC</li>
+      </ul>
+      <h2>Also Serving</h2>
+      <p>Other Wake County neighborhoods and nearby towns — call to confirm we can reach you the same day.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

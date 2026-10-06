@@ -1,0 +1,41 @@
+---
+const phone = '+19195550199';
+const phoneDisplay = '(919) 555-0199';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>AC Repair Wake Forest</h4>
+        <p>Licensed AC repair, installation, and maintenance serving Wake Forest, Rolesville and Wake County. Same-day service, upfront pricing, written guarantee.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/emergency-ac-repair/">Emergency AC Repair</a></p>
+        <p><a href="/services/central-ac-repair/">Central AC Repair</a></p>
+        <p><a href="/services/ac-not-cooling/">AC Not Cooling</a></p>
+        <p><a href="/services/ac-installation/">AC Installation</a></p>
+        <p><a href="/services/ac-maintenance/">Maintenance</a></p>
+      </div>
+      <div>
+        <h4>Common Problems</h4>
+        <p><a href="/problems/ac-not-turning-on/">AC Not Turning On</a></p>
+        <p><a href="/problems/weak-airflow/">Weak Airflow</a></p>
+        <p><a href="/problems/strange-noises/">Strange Noises</a></p>
+        <p><a href="/problems/frozen-coil/">Frozen Coil</a></p>
+        <p><a href="/problems/high-energy-bills/">High Energy Bills</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>105 E Young St<br />Rolesville, NC 27571</p>
+        <p>Open 24 / 7 for emergencies</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} AC Repair Wake Forest NC. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

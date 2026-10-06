@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19195550199';
+const phoneDisplay = '(919) 555-0199';
+---
+<Layout title="AC Maintenance | Wake Forest & Rolesville, NC" description="Professional AC tune-ups and maintenance in Rolesville and Wake Forest, NC.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Maintenance</h1>
+      <p>Professional AC tune-ups and maintenance in Rolesville and Wake Forest, NC.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container" style="max-width:800px">
+      <p>Regular maintenance keeps your system efficient, lowers energy bills, and prevents mid-summer breakdowns. Our tune-up service covers the critical points that manufacturers recommend.</p>
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Clean condenser and evaporator coils</li>
+        <li>Check and adjust refrigerant charge</li>
+        <li>Inspect electrical connections and capacitors</li>
+        <li>Test thermostat and safety controls</li>
+        <li>Lubricate moving parts and check belts</li>
+        <li>Air filter inspection and recommendations</li>
+      </ul>
+      <h2>Ready for Fast Service?</h2>
+      <p>Call or text <a href={`tel:${phone}`}>(919) 555-0199</a> for same-day AC service in Wake Forest, Rolesville, and nearby communities. Upfront pricing and a written estimate before any work begins.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call (919) 555-0199</a></p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+19195550199';
+const phoneDisplay = '(919) 555-0199';
+---
+<Layout title="About Us | AC Repair Wake Forest NC" description="Local licensed AC repair team serving Wake Forest, Rolesville and Wake County with same-day service.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>Your local AC specialists in Wake Forest and Rolesville, NC.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container" style="max-width:800px">
+      <p>We are a licensed HVAC team focused on fast, honest air conditioning repair for homeowners in Wake Forest, Rolesville, and surrounding Wake County communities. Our goal is simple: restore your cool comfort the same day whenever possible, with clear pricing and no pressure.</p>
+      <h2>What Sets Us Apart</h2>
+      <ul>
+        <li>Same-day and 24/7 emergency response</li>
+        <li>Upfront written estimates before any work</li>
+        <li>Licensed, insured technicians</li>
+        <li>Experience with all major AC brands</li>
+        <li>Based near Rolesville for quick local response</li>
+      </ul>
+      <h2>Our Commitment</h2>
+      <p>We treat every home like our own. That means diagnosing the real problem, explaining options in plain language, and standing behind our work with a written workmanship guarantee.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>
